@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "703145944450",
+    "firebase_url": "https://trackitdriver-60ff9.firebaseio.com",
+    "project_id": "trackitdriver-60ff9",
+    "storage_bucket": "trackitdriver-60ff9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:703145944450:android:eae4f1532c385ce3",
+        "android_client_info": {
+          "package_name": "com.example.amodh.trackit_driver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "703145944450-h9v2cgpg87om3vjj3eflptt48gnb6gqc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.amodh.trackit_driver",
+            "certificate_hash": "6d8113e9605de29c99a0f501979ddbb1e0539856"
+          }
+        },
+        {
+          "client_id": "703145944450-njic8eiuukvhi21kuj6lm8lpepdfq8ka.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXJz2emLhO11LwvkrbC159wN4ADg7Zxgs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "703145944450-njic8eiuukvhi21kuj6lm8lpepdfq8ka.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

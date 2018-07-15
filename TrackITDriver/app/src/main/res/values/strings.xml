@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TrackIT - Driver</string>
+    <string name="notification_text">Tracking, tap to cancel</string>
+</resources>

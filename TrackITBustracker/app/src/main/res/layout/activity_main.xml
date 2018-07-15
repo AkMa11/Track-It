@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.amodh.trackit_bustracker.MainActivity">
+
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/goToMyLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="@+id/mapFragment"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_mylocation" />
+
+    <AutoCompleteTextView
+        android:id="@+id/busNumber"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/edittext_bg"
+        android:paddingLeft="15dp"
+        android:hint="Search Bus Number"
+        android:textColor="@color/White"
+        android:textColorHint="@color/White"
+        android:textIsSelectable="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/mapFragment" />
+
+    <ImageView
+        android:id="@+id/dropDownImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/busNumber"
+        app:layout_constraintEnd_toEndOf="@+id/busNumber"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/busNumber"
+        app:layout_constraintTop_toTopOf="@+id/busNumber"
+        app:layout_constraintVertical_bias="0.166"
+        android:background="@drawable/image_bg"
+        app:srcCompat="@drawable/ic_arrow_drop_down_black_24dp"
+        tools:ignore="VectorDrawableCompat" />
+</android.support.constraint.ConstraintLayout>
